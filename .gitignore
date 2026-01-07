@@ -1,0 +1,35 @@
+# Nextflow
+work/
+.nextflow/
+.nextflow.*
+*.log
+timeline.html
+report.html
+trace.txt
+dag.dot
+
+# Results
+results/
+uxm_deconvolution_results/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Data files
+*.bam
+*.bam.bai
+*.pat.gz
+*.beta
+
+# OS
+.DS_Store
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
