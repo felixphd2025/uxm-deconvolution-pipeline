@@ -105,14 +105,7 @@ This indicates that both thresholds produce robust, consistent results. The choi
 
 ## Recommendation
 
-**Use default np_thresh = 0.67** because:
-1. ✅ **Validated by developers** - Default for a reason
-2. ✅ **More CpG coverage** - Includes more methylation data
-3. ✅ **Similar results** - <2% difference from conservative threshold
-4. ✅ **Standard practice** - Consistent with literature
-5. ✅ **Better for low-coverage regions** - Important for tumor samples
-
-Only use 0.8 if you need maximum confidence and can afford losing CpG coverage.
+**Use default np_thresh = 0.8
 
 ## Biological Interpretation
 
